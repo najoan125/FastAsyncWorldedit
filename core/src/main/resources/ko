@@ -1,0 +1,316 @@
+info:
+  prefix: '&f[&bHift 월드에딧&f]&r&7'
+  file_deleted: '%s0 이 삭제되었습니다.'
+  schematic_pasting: '&7도식도가 붙여지고 있어요. 이 작업은 취소할 수 없습니다.'
+  lighting_propogate_selection: '&7조명은 %s0 청크로 사전 지정되었습니다(참고: 빛을 제거하려면 //removelight)을
+    사용합니다.'
+  updated_lighting_selection: '&7%s0 청크로 조명이 업데이트되었습니다. (패킷이 전송되는 데 1초가 걸릴 수 있습니다.)'
+  set_region: '&7선택 영역이 현재 허용된 영역으로 설정됩니다.'
+  worldedit_command_limit: '&7현재 작업이 완료될 때까지 기다려 주십시오.'
+  worldedit_delayed: '&7FAWE 조치를 처리하는 동안 기다려 주십시오...'
+  worldedit_run: '&7늦어져서 죄송합니다. %s을(를) 실행하고 있습니다.'
+  worldedit_complete: '&7편집이 완료되었습니다.'
+  require_selection_in_mask: '&7선택한 항목의 %s이(가) 마스크 내에 없습니다. 허용된 영역 내에서만 편집할 수 있습니다.'
+  worldedit_volume: '&7%current% 볼륨은 선택할 수 없습니다. 수정할 수 있는 최대 볼륨은 %max%입니다.'
+  worldedit_iterations: '&7%current%를 반복할 수 없습니다. 허용되는 최대 반복 횟수는 %max%입니다.'
+  worldedit_unsafe: '&7해당 명령에 대한 액세스가 차단되었습니다.'
+  worldedit_dangerous_worldedit: '&c%s0에서 %s1(으)로 안전하지 않은 편집을 처리했습니다.'
+  worldedit_toggle_tips_on: '&7FAWE 팁이 &c비활성화&7되었습니다.'
+  worldedit_toggle_tips_off: '&7FAWE 팁이 &a활성화&7되었습니다.'
+  worldedit_bypassed: '&7현재 FAWE 제한을 우회하고 있습니다.'
+  worldedit_unmasked: '&6FAWE 편집은 이제 제한되지 않습니다.'
+  worldedit_restricted: '&6이제 FAWE 편집이 제한됩니다.'
+  worldedit_oom_admin: |-
+    &c가능한 옵션:
+    &8 - &7//fast
+    &8 - &7Do smaller edits
+    &8 - &7Allocate more memory
+    &8 - &7Disable `max-memory-percent`
+  compressed: 내역이 압축되었습니다. ~ %s0b(%s1배 더 작음)가 절약되었습니다.
+  action_complete: 작업이 %s0초 내에 완료되었습니다.
+error:
+  worldedit_extend: '&c편집이 허용된 영역 밖으로 확장되었을 수 있습니다.'
+  web_unauthorized: '구성된 웹 호스트의 링크만 허용됨: %s0'
+  command_syntax: '&c사용법: &7%s0'
+  no_perm: '&c권한 없음: %s0'
+  setting_disable: '&c설정 부족: %s0'
+  brush_not_found: '&c사용 가능한 브러시: %s0'
+  brush_incompatible: '&c브러시가 이 버전과 호환되지 않습니다.'
+  schematic_not_found: '&c개략도를 찾을 수 없음: &7%s0'
+  no_region: '&c현재 허용된 영역이 없습니다.'
+  no_mask: '&c현재 마스크 세트가 없습니다.'
+  not_player: '&c이 작업을 수행하려면 플레이어여야 합니다!'
+  player_not_found: '&c플레이어를 찾을 수 없음:&7 %s0'
+  oom: |-
+    &8[&c심각&8] &c낮은 메모리(예: < 1%)를 감지했습니다. 다음 조치를 취할 것입니다:
+    &8 - &7WE 블록 배치를 종료합니다
+    &8 - &7WE 기록을 지웁니다
+    &8 - &7필수 구성 요소가 아닌 청크를 언로드합니다
+    &8 - &7엔티티를 죽입니다
+    &8 - &7쓰레기를 수집합니다
+    &c서버를 손상시키려 할 경우 이 작업을 무시합니다
+    &7참고: 메모리 부족은 WE에 의해 발생할 수 있습니다(그러나 반드시 발생하지는 않음)
+  worldedit_some_fails: '&c%s0 블록이 허용된 영역 외부에 있으므로 배치되지 않았습니다.'
+  worldedit_some_fails_blockbag: '&c누락된 블록: %s0'
+web:
+  generating_link: 업로드 중 %s. 잠시 기다려 주십시오...
+  generating_link_failed: '&c다운로드 링크를 생성하지 못했습니다!'
+  download_link: '%s'
+worldedit:
+  general:
+    mask_disabled: 글로벌 마스크를 사용할 수 없습니다.
+    mask: Global mask set
+    texture_disabled: 텍스처 재설정
+    texture_set: 텍스처를 %s1로 설정합니다
+    source_mask_disabled: 글로벌 소스 마스크를 사용할 수 없습니다
+    source_mask: Global source mask set
+    transform_disabled: Global transform disabled
+    transform: Global transform set
+    fast_enabled: Fast mode enabled. History and edit restrictions will be bypassed.
+    fast_disabled: Fast mode disabled
+    place_enabled: 'Now placing at pos #1.'
+    place_disabled: Now placing at the block you stand in.
+  copy:
+    command_copy: '%s0 블록이 복사되었습니다.'
+  cut:
+    command_cut_slow: '%s0 블록이 삭제되었습니다.'
+    command_cut_lazy: 붙여넣기 시 %s0 블록이 제거됩니다.
+  paste:
+    command_paste: 클립보드가 %s0에 붙여넣었습니다.
+  rotate:
+    command_rotate: 클립보드가 회전되었습니다.
+  flip:
+    command_flipped: 클립보드가 플립되었습니다.
+  regen:
+    command_regen_0: 영역이 재생성되었습니다.
+    command_regen_1: 영역이 재생성되었습니다.
+    command_regen_2: 영역이 재생성되었습니다.
+  tree:
+    command_tree: '%s0 트리가 생성되었습니다.'
+    command_pumpkin: '%s0 호박 패치가 생성되었습니다.'
+  flora:
+    command_flora: '%s0 식물체가 생성되었습니다.'
+  history:
+    command_history_clear: '&a기록이 지워졌습니다.'
+    command_redo_error: '&c다시 할 수 있는 것은 아무것도 남아있지 않습니다. (`/inspect` 및 `/frb`도 참조합니다)'
+    command_history_other_error: 세션 %s0을 찾을 수 없습니다.
+    command_redo_success: '&a%s0 개의 수정을 되돌렸습니다.'
+    command_undo_error: '&c실행 취소할 작업이 남아 있지 않습니다. (`/inspect` 및 `/frb`도 참조합니다)'
+    command_undo_success: '&a%s0 개의 수정을 되돌렸습니다.'
+  operation:
+    operation: 작업이 완료되었습니다(%s0)
+  selection:
+    selection_wand: '왼쪽 클릭: pos #1 선택, 오른쪽 클릭: pos #2 선택'
+    selection_wand_disable: 막대 편집을 사용할 수 없습니다.
+    selection_wand_enable: 막대 편집이 활성화되었습니다.
+    selection_chunk: 청크가 선택되었습니다(%s0).
+    selection_chunks: 청크가 선택되었습니다(%s0). - (%s1)
+    selection_contract: 영역에 %s0 블록이 수축되었습니다.
+    selection_count: 블럭 카운트 함 %s0
+    selection_distr: '# 전체 블록: %s0'
+    selection_expand: 영역이 %s0 블록을 확장했습니다.
+    selection_expand_vert: 영역은 %s0 블록을 확장했습니다(위에서 아래로).
+    selection_inset: 영역 삽입입니다.
+    selection_outset: 영역이 먼저 설정되었습니다.
+    selection_shift: 영역이 이동되었습니다.
+    selection_cleared: 선택이 지워졌습니다.
+  navigation:
+    navigation_wand_error: '&c통과할 것이 없습니다.'
+  anvil:
+    world_is_loaded: 실행 시 세계는 사용되어서는 안 됩니다. 월드를 언로드하거나 -f를 사용하여 재정의합니다(먼저 저장).
+  brush:
+    brush_reset: 브러시를 재설정합니다. (Shift + 클릭)
+    brush_none: 당신은 붓을 들고 있지 않아요!
+    brush_scroll_action_set: 스크롤 액션을 %s0으로 설정합니다.
+    brush_scroll_action_unset: 스크롤 액션을 제거했습니다.
+    brush_visual_mode_set: 비주얼 모드를 %s0으로 설정합니다.
+    brush_target_mode_set: 대상 모드를 %s0으로 설정합니다.
+    brush_target_mask_set: 대상 마스크를 %s0으로 설정합니다.
+    brush_target_offset_set: 대상 오프셋을 %s0으로 설정합니다.
+    brush_equipped: '%s0 브러시가 장착되어 있습니다.'
+    brush_try_other: |-
+      &c다른 보다 적합한 브러시가 있습니다. 예를 들어,
+      &8 - &7//br height [radius=5] [#clipboard|file=null] [rotation=0] [yscale=1.00]
+    brush_copy: 복사할 개체의 기본값을 마우스 왼쪽 단추로 클릭하고 붙여넣으려면 마우스 오른쪽 단추를 클릭합니다. 필요한 경우 브러시 반지름을 늘립니다.
+    brush_height_invalid: 잘못된 높이 맵 파일(%s0)입니다.
+    brush_smooth: '참고: 돌출부나 동굴을 부드럽게 하려면 혼합 브러시를 사용합니다.'
+    brush_spline: 점을 추가하려면 클릭하고, 마치려면 같은 점을 클릭합니다.
+    brush_line_primary: '%s0 점을 추가했습니다. 다른 위치를 클릭하여 선을 작성합니다.'
+    brush_catenary_direction: '%s0 점이 추가되었습니다. 스플라인을 작성할 방향을 클릭하십시오.'
+    brush_line_secondary: 생성된 스플라인
+    brush_spline_primary_2: 추가 위치, 가입하려면 같은 지점을 클릭하십시오!
+    brush_spline_secondary_error: 위치가 충분하지 않습니다!
+    brush_spline_secondary: 생성된 스플라인
+    brush_size: 브러시 크기 설정
+    brush_range: 브러시 크기 설정
+    brush_mask_disabled: 브러시 마스크를 사용할 수 없습니다.
+    brush_mask: 브러시 마스크 설정
+    brush_source_mask_disabled: 브러시 소스 마스크를 사용할 수 없습니다.
+    brush_source_mask: 브러시 소스 마스크 설정
+    brush_transform_disabled: 브러시 변환 사용 안 함
+    brush_transform: 브러시 변환 설정
+    brush_material: 브러시 소재 설정
+  rollback:
+    rollback_element: 실행 취소 중 %s0
+  tool:
+    tool_inspect: '%s0에 바인딩된 공구를 검사합니다.'
+    tool_inspect_info: '&7%s0이(가) %s1을(를) %s2 %s3(으)로 변경했습니다.'
+    tool_inspect_info_footer: '&6총계: &7%s0 변경 사항'
+    tool_none: 도구가 현재 항목에서 바인딩되지 않았습니다.
+    tool_info: 정보 도구가 %s0에 바인딩되었습니다.
+    tool_tree: 트리 도구가 %s0에 바인딩되었습니다.
+    tool_tree_error: '%s0 트리 유형을 알 수 없습니다.'
+    tool_repl: 블록 재생기 도구가 %s0에 바인딩되었습니다.
+    tool_cycler: '%s0에 바인딩된 블록 데이터 사이클러 도구입니다.'
+    tool_flood_fill: '%s0에 바인딩된 홍수 채우기 도구입니다.'
+    tool_range_error: '최대 범위: %s0.'
+    tool_radius_error: '최대 허용 브러시 반지름: %s0.'
+    tool_deltree: 부동 트리 제거 도구가 %s0에 바인딩되었습니다.
+    tool_farwand: 원봉 도구가 %s0에 바인딩되어 있습니다.
+    tool_lrbuild_bound: 장거리 건축 도구는 %s0에 바인딩되어 있습니다.
+    tool_lrbuild_info: 마우스 왼쪽 버튼을 클릭하여 %s0(으)로 설정; 마우스 오른쪽 버튼을 클릭하여 %s1(으)로 설정
+    superpickaxe_enabled: 슈퍼 곡괭이가 활성화되었습니다.
+    superpickaxe_disabled: 슈퍼 곡괭이가 비활성화되었습니다.
+    superpickaxe_area_enabled: 모드가 변경되었습니다. 곡괭이로 좌클릭합니다. // 로 사용하지 않도록 설정합니다.
+  snapshot:
+    snapshot_loaded: 스냅샷 '%s0'(이)가 로드되었습니다. 이제 복원...
+    snapshot_set: '스냅샷 설정 위치: %s0'
+    snapshot_newest: 이제 최신 스냅샷을 사용합니다.
+    snapshot_list_header: '월드용 스냅샷 (%s0):'
+    snapshot_list_footer: /snap use [스냅샷] 또는 /snap use latest를 사용합니다.
+  biome:
+    biome_list_header: '바이옴(%s0/%s1 페이지):'
+    biome_changed: '%s0 열에서 바이오메일이 변경되었습니다.'
+  utility:
+    kill_success: '%s1 반지름에서 %s0 엔티티를 죽였습니다.'
+    nothing_confirmed: 확인 보류 중인 작업이 없습니다.
+    page_footer: '%s0을 사용하여 다음 페이지로 이동합니다.'
+  schematic:
+    schematic_prompt_clear: '&c%s0 &7을(를) 사용하여 현재 클립보드를 먼저 지울 수 있습니다.'
+    schematic_show: |-
+      &a%s1&7의 &a%s0&7 도식 표시:
+      &8 - &7구조를 &a마우스 왼쪽 단추&7로 클릭하여 클립보드를 설정합니다.
+      &8 - &a마우스 오른쪽 버튼&7을 클릭하여 구조를 멀티클립보드에 추가합니다.
+      &8 - &7&a%s2&7을 사용하여 그 월드로 돌아갑니다.
+    schematic_format: '사용 가능한 형식(이름: 조회 이름)'
+    schematic_move_exists: '&c%s0이(가) 이미 있습니다.'
+    schematic_move_success: '&a%s0 -> %s1'
+    schematic_move_failed: '&a%s0 이동 없음: %s1'
+    schematic_loaded: '%s0이(가) 로드되었습니다. //paste'
+    schematic_saved: '%s0이(가) 저장되었습니다.'
+    schematic_page: 페이지는 %s이어야 합니다.
+    schematic_none: 파일을 찾을 수 없습니다.
+    schematic_list: '사용 가능한 파일(파일 이름: 형식) [%s0/%s1]:'
+    schematic_list_elem: '&8 - &a%s0 &8- &7%s1'
+  clipboard:
+    clipboard_uri_not_found: '%s0을(를) 로드하지 않았습니다.'
+    clipboard_cleared: 클립보드가 지워졌습니다.
+    clipboard_invalid_format: '알 수 없는 클립보드 형식: %s0'
+  visitor:
+    visitor_block: '%s0 블록이 영향을 받았습니다.'
+    visitor_entity: '%s0 엔티티가 영향을 받았습니다.'
+    visitor_flat: '%s0 열이 영향을 받았습니다.'
+  selector:
+    selector_fuzzy_pos1: 지역이 %s0 %s1에서 설정 및 확장되었습니다.
+    selector_fuzzy_pos2: '%s0 %s1 확장이 추가되었습니다.'
+    selector_pos: pos%s0이 %s1(%s2)로 설정되었습니다.
+    selector_center: 중심이 %s0(%s1)으로 설정되었습니다.
+    selector_radius: 반지름이 %s0(%s1)으로 설정되었습니다.
+    selector_expanded: 영역을 %s0(%s1)으로 확장했습니다.
+    selector_invalid_coordinates: '%s0 좌표가 잘못되었습니다.'
+    selector_already_set: 위치가 이미 설정되었습니다.
+    selector_set_default: 이제 기본 영역 선택기가 %s0입니다.
+  timezone:
+    timezone_set: '이 세션에 대해 설정된 표준 시간대: %s0'
+    timezone_display: '해당 시간대의 현재 시간: %s0'
+  command:
+    command_invalid_syntax: 명령이 제대로 사용되지 않았습니다(더 이상 도움말을 사용할 수 없습니다).
+  help:
+    command_clarifying_bracket: '&7&c%s0에 대한 명확화 브래킷이 추가되었습니다.'
+    help_suggest: '&7%s0을(를) 찾을 수 없습니다. &c%s1 &7중 하나를 사용해 보시겠어요?'
+    help_header_categories: 명령 유형
+    help_header_subcommands: 하위 명령
+    help_header_command: '&c도움말: &7%s0'
+    help_item_allowed: '&a%s0&8 - &7%s1'
+    help_item_denied: '&c%s0&8 - &7%s1'
+    help_header: '도움말: %s0/%s1 페이지'
+    help_footer: '&7위키: https://git.io/vSKE5'
+progress:
+  progress_message: '%s1/%s0 (%s2%) @%s3cps %s4s left'
+  progress_finished: '[ 완료! ]'
+cancel:
+  worldedit_cancel_count: '&c%s0 편집을 취소했습니다.'
+  worldedit_cancel_reason_confirm: '&7선택 영역이 큽니다(&c%s0 &7-> &c%s1&c7 포함 &c%s3&7 블록).
+    &c//confirm &c%s2을 사용하여 실행합니다.'
+  worldedit_cancel_reason: '&cWorldEdit 작업이 취소됨:&7 %s0&c.'
+  worldedit_cancel_reason_manual: 수동취소
+  worldedit_cancel_reason_low_memory: 메모리 부족
+  worldedit_cancel_reason_max_changes: 너무 많은 블록이 변경됨
+  worldedit_cancel_reason_max_checks: 블록 점검이 너무 많음
+  worldedit_cancel_reason_max_tiles: 블록스테이트가 너무 많음
+  worldedit_cancel_reason_max_entities: 도면요소가 너무 많음
+  worldedit_cancel_reason_max_iterations: 최대 반복
+  worldedit_cancel_reason_outside_level: 외부 세계
+  worldedit_cancel_reason_outside_region: 허용된 영역 밖에 있습니다( /wea와 함께 통과하거나 config.yml에서 `region-restrictions`을 사용하지 않도록 설정).
+  worldedit_cancel_reason_no_region: 허용되지 않는 영역입니다. ( /wea와 함께 통과하거나 config.yml에서 `region-restrictions`을 사용하지 않도록 설정)
+  worldedit_failed_load_chunk: '&c청크 로드 건너뛰기: &7%s0;%s1&c. 청크 대기를 늘려 보십시오.'
+navigation:
+  ascend_fail: 위쪽에 있는 자유 지점은 찾을 수 없습니다.
+  ascended_plural: '%s0 레벨 상승.'
+  ascended_singular: 한 단계 올라갔습니다.
+  unstuck: 잘했습니다!
+  descend_fail: 아래에는 빈자리가 없습니다.
+  descend_plural: '%s0 레벨을 하강했습니다.'
+  descend_singular: 한 단계 내려왔습니다.
+  whoosh: 슝!
+  poof: 휙!
+  thru_fail: 앞에 빈자리가 없습니다.
+  no_block: 차단막은 보이지 않습니다! (혹은 너무 멀리)
+  up_fail: 당신은 당신 위에 있는 무언가를 때릴 것입니다.
+selection:
+  sel_cuboid: '직육면체: 점 1의 경우 왼쪽 클릭, 점 2의 경우 오른쪽 클릭'
+  sel_cuboid_extend: '직육면체: 시작점을 마우스 왼쪽 단추로 클릭하고, 마우스 오른쪽 단추로 클릭하여 확장합니다.'
+  sel_2d_polygon: '2D 다각형 선택기: 점을 추가하려면 왼쪽/오른쪽으로 클릭하십시오.'
+  sel_ellipsiod: '타원형 선택기: 왼쪽 클릭=중앙, 오른쪽 클릭으로 확장'
+  sel_sphere: '구면 선택기: 왼쪽 클릭=중앙, 오른쪽 클릭으로 반지름을 설정'
+  sel_cylindrical: '원통형 선택기: 왼쪽 클릭=중앙, 오른쪽 클릭을 눌러 확장하십시오.'
+  sel_max: 최대 %s0 포인트입니다.
+  sel_fuzzy: '퍼지 선택기: 모든 조건부 블록을 선택하려면 마우스 왼쪽 버튼을 클릭하고, 추가하려면 마우스 오른쪽 버튼을 클릭하십시오.
+    공기 구멍을 선택하려면 //pos1을 사용하십시오.'
+  sel_convex_polyhedral: '볼록 다면체 셀렉터: 왼쪽 클릭=첫 번째 꼭지점, 오른쪽 클릭하여 추가.'
+  sel_list: 선택 유형 목록 사용:&c //sel list
+  sel_modes: '아래 모드 중 하나를 선택:'
+tips:
+  tip_sel_list: 'Tip: See the different selection modes with &c//sel list'
+  tip_select_connected: 'Tip: Select all connected blocks with //sel fuzzy'
+  tip_set_pos1: 'Tip: Use pos1 as a pattern with &c//set pos1'
+  tip_farwand: 'Tip: Select distant points with &c//farwand'
+  tip_lazycut: '&7Tip: It is safer to use &c//lazycut'
+  tip_fast: '&7Tip: Set fast and without undo using &c//fast'
+  tip_cancel: '&7Tip: You can &c//cancel &7an edit in progress'
+  tip_mask: '&7Tip: Set a global destination mask with &c/gmask'
+  tip_mask_angle: 'Tip: Replace upward slopes of 3-20 blocks using&c //replace /[-20][-3]
+    bedrock'
+  tip_set_linear: '&7Tip: Set blocks linearly with&c //set #l3d[wood,bedrock]'
+  tip_surface_spread: '&7Tip: Spread a flat surface with&c //set #surfacespread[5][0][5][#existing]'
+  tip_set_hand: '&7Tip: Use your current hand with &c//set hand'
+  tip_replace_id: '&7Tip: Replace only the block id:&c //replace woodenstair #id[cobblestair]'
+  tip_replace_light: 'Tip: Remove light sources with&c //replace #brightness[1][15]
+    0'
+  tip_tab_complete: 'Tip: The replace command supports tab completion'
+  tip_flip: 'Tip: Mirror with &c//flip'
+  tip_deform: 'Tip: Reshape with &c//deform'
+  tip_transform: 'Tip: Set a transform with &c//gtransform'
+  tip_copypaste: 'Tip: Paste on click with &c//br copypaste'
+  tip_source_mask: 'Tip: Set a source mask with &c/gsmask <mask>&7'
+  tip_replace_marker: 'Tip: Replace a block with your full clipboard using &c//replace
+    wool #fullcopy'
+  tip_paste: 'Tip: Place with &c//paste'
+  tip_lazycopy: 'Tip: lazycopy is faster'
+  tip_download: 'Tip: Try out &c//download'
+  tip_rotate: 'Tip: Orientate with &c//rotate'
+  tip_copy_pattern: 'Tip: To use as a pattern try &c#copy'
+  tip_regen_0: 'Tip: Use a biome with /regen [biome]'
+  tip_regen_1: 'Tip: Use a seed with /regen [biome] [seed]'
+  tip_biome_pattern: 'Tip: The &c#biome[forest]&7 pattern can be used in any command'
+  tip_biome_mask: 'Tip: Restrict to a biome with the `$jungle` mask'
